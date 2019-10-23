@@ -1,0 +1,23 @@
+{
+  "name": "object-prototype-functions",
+  "version": "0.0.0",
+  "description": "An array containing the names of the functions on `Object.prototype`",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^14.3.1"
+  },
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watson/object-prototype-functions.git"
+  },
+  "author": "Thomas Watson <w@tson.dk> (https://twitter.com/wa7son)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/object-prototype-functions/issues"
+  },
+  "homepage": "https://github.com/watson/object-prototype-functions#readme"
+}
