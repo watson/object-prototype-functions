@@ -8,3 +8,21 @@ module.exports = [
   'toString',
   'valueOf'
 ]
+
+module.exports.deprecated = [
+  '__defineGetter__',
+  '__defineSetter__',
+  '__lookupGetter__',
+  '__lookupSetter__'
+]
+
+module.exports.nonSpec = [
+  'eval',
+  'unwatch',
+  'watch'
+]
+
+module.exports.all = module.exports.concat(
+  module.exports.deprecated,
+  module.exports.nonSpec
+)

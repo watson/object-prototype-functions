@@ -21,6 +21,27 @@ console.log('The functions of Object.prototype are:')
 console.log(ObjectPrototypeFunctions.join(', ')) // hasOwnProperty, isPrototypeOf...
 ```
 
+## API
+
+### `ObjectPrototypeFunctions`
+
+An array containing the names of the functions on `Object.prototype`.
+
+### `ObjectPrototypeFunctions.deprecated`
+
+An array containing the names of the deprecated functions on
+`Object.prototype`.
+
+### `ObjectPrototypeFunctions.nonSpec`
+
+An array containing the names of the non-spec'd functions on
+`Object.prototype`.
+
+### `ObjectPrototypeFunctions.all`
+
+An array containing the all names of the functions on `Object.prototype`
+- both the spec'd, deprecated, and non-spec'd functions.
+
 ## License
 
 [MIT](LICENSE)
