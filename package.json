@@ -14,6 +14,13 @@
     "type": "git",
     "url": "git+https://github.com/watson/object-prototype-functions.git"
   },
+  "keywords": [
+    "object",
+    "prototype",
+    "function",
+    "functions",
+    "name"
+  ],
   "author": "Thomas Watson <w@tson.dk> (https://twitter.com/wa7son)",
   "license": "MIT",
   "bugs": {
