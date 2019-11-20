@@ -1,6 +1,6 @@
 {
   "name": "object-prototype-functions",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "An array containing the names of the functions on `Object.prototype`",
   "main": "index.js",
   "dependencies": {},
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/watson/object-prototype-functions#readme",
   "coordinates": [
-    55.778275,
-    12.593032
+    55.776583,
+    12.592611
   ]
 }
