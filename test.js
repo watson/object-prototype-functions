@@ -20,6 +20,12 @@ ObjectPrototypeFunctions.deprecated.forEach(name => {
 assert(Array.isArray(ObjectPrototypeFunctions.nonSpec))
 assert(ObjectPrototypeFunctions.nonSpec.length > 0)
 
+assert(Array.isArray(ObjectPrototypeFunctions.nodejs))
+assert.strictEqual(ObjectPrototypeFunctions.nodejs.length,
+  ObjectPrototypeFunctions.length +
+  ObjectPrototypeFunctions.deprecated.length
+)
+
 assert(Array.isArray(ObjectPrototypeFunctions.all))
 assert.strictEqual(ObjectPrototypeFunctions.all.length,
   ObjectPrototypeFunctions.length +

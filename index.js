@@ -22,6 +22,8 @@ module.exports.nonSpec = [
   'watch'
 ]
 
+module.exports.nodejs = module.exports.concat(module.exports.deprecated)
+
 module.exports.all = module.exports.concat(
   module.exports.deprecated,
   module.exports.nonSpec
