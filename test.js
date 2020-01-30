@@ -7,14 +7,14 @@ assert(Array.isArray(ObjectPrototypeFunctions))
 assert(ObjectPrototypeFunctions.length > 0)
 
 ObjectPrototypeFunctions.forEach(name => {
-  assert.strictEqual(typeof Object[name], 'function')
+  assert.strictEqual(typeof Object.prototype[name], 'function')
 })
 
 assert(Array.isArray(ObjectPrototypeFunctions.deprecated))
 assert(ObjectPrototypeFunctions.deprecated.length > 0)
 
 ObjectPrototypeFunctions.deprecated.forEach(name => {
-  assert.strictEqual(typeof Object[name], 'function')
+  assert.strictEqual(typeof Object.prototype[name], 'function')
 })
 
 assert(Array.isArray(ObjectPrototypeFunctions.nonSpec))
