@@ -45,8 +45,9 @@ functions.
 
 ### `ObjectPrototypeFunctions.all`
 
-An array containing the all names of the functions on `Object.prototype`
-- both the spec'd, deprecated, and non-spec'd functions.
+An array containing the all names of the functions on
+`Object.prototype`, both the spec'd, deprecated, and non-spec'd
+functions.
 
 ## License
 
